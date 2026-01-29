@@ -4,6 +4,9 @@ This repository contains a bash script to compile [SWI Prolog](https://www.swi-p
 means cloning the SWI-Prolog repository and the module repositories, launching configuration then
 launching [`ninja-build`](https://ninja-build.org/) to do the build itself.
 
+However, I have just tested this on a Fedora distribution.
+
+
 ## File tree
 
 ![File Structure with JPL](pics/file_tree.svg)
