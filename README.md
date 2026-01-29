@@ -4,18 +4,14 @@ This repository contains a bash script to compile [SWI Prolog](https://www.swi-p
 means cloning the SWI-Prolog repository and the module repositories, launching configuration then
 launching [`ninja-build`](https://ninja-build.org/) to do the build itself.
 
-One
+## File tree
 
-![File Structure with JPL](compiling_swi_prolog/blob/main/pics/File Structure_with_JPL.svg)
+![File Structure with JPL](pics/file_tree.svg)
 
-Two
+## File tree with JPL
 
-![File Structure with JPL](blob/main/pics/File Structure_with_JPL.svg)
+"JPL" is the Java<->Prolog bridge for in-process communication between the two "language universes".
 
-Three
+![File Structure with JPL](pics/file_tree_with_jpl.svg)
 
-![File Structure with JPL](main/pics/File Structure_with_JPL.svg)
 
-Four 
-
-![File Structure with JPL](pics/File Structure_with_JPL.svg)
